@@ -23,7 +23,7 @@ The program is designed to simulate a breaker within a substation or generation 
 - A new Modbus TCP/IP communication path previously unseen. Modbus TCP/IP is a common protocol for SCADA systems. Normal Modbus communication is a master, or masters, polling a large number of slaves, the Click PLC. Unless a change occurs in the environment, yhe SRC_IP, DEST_IP, and DEST_PORT tuple would be established and static. A new/unknown tuple would be 
  these communication pairs should be well known and static. The tuple of the Attack_IP, CLICK_PLC, DEST_PORT would be new and should be identified by analysts if proper collection and analysis is occouring.  
 
-### Turning off the Lights
+### New PLC Program
 ***Emulation Steps***
 - Download Click Software to Attack Box
 - Go online with the PLC
