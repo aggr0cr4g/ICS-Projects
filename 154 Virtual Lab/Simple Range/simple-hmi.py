@@ -23,12 +23,14 @@ def main ():
 		if val == 'r':
 			red = client.read_coils(8194,1)
 			green = client.read_coils(8193,1)
+			print('Using MODBUS Function Code (1) ')
 			print('Red Light status is',red.bits[0])
 			print('Green Light status is',green.bits[0])
 			client.close()
 		if val == 'w':
 			val1 = input("[g] for green [w] for red: ")
 			val2 = int(input("[1] for True or [0] for False: "))
+			print('Using MODBUS Function Code (5) ')
 			if val1 == 'g':
 				client.write_coil(8193, val2)
 			if val1 == 'r':
