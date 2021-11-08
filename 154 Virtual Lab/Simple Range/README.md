@@ -34,6 +34,7 @@ The program is designed to simulate a breaker within a substation or generation 
 
 
 ### New Function Code. 
+Need second modbus client and didnt write that yet..
 
 ## Authors, Licence, Credits
 - 
